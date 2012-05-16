@@ -218,6 +218,11 @@ td { vertical-align: top; }
    Author: Herb Susmann
    ========================================================================== */
 
+body {
+  /* background: whitesmoke url(../img/chruch.png); */
+  background: white;
+}
+
 .header {
   font-size: 24pt;
 } .header p { font-size: 13pt;
@@ -255,7 +260,25 @@ ul.information li {
 
 .sidebar nav ul li a:hover {
   text-decoration: none;
-  border-left: 5px solid gray;
+  border-left: 5px solid #FFB900;
+}
+
+.highlight {
+  color: black;
+  padding: 5px;
+
+  text-shadow: 0px 1px white;
+
+  background: rgb(255,198,66); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(255,198,66,1) 0%, rgba(255,185,0,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,198,66,1)), color-stop(100%,rgba(255,185,0,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(255,198,66,1) 0%,rgba(255,185,0,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(255,198,66,1) 0%,rgba(255,185,0,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(255,198,66,1) 0%,rgba(255,185,0,1) 100%); /* IE10+ */
+  background: linear-gradient(top,  rgba(255,198,66,1) 0%,rgba(255,185,0,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc642', endColorstr='#ffb900',GradientType=0 ); /* IE6-9 */
+
+
 }
 
 .sidebar .info-box {
@@ -270,6 +293,7 @@ ul.information li {
 .content .info-box {
   margin-top: 40px;
   font-size: 14pt;
+  line-height: 2em;
 }
 
 .content img {
@@ -282,14 +306,105 @@ ul.information li {
   margin-top: 12px;
 }
 
+.content small {
+  display: block;
+  margin-bottom: 20px;
+}
 
+.content > p {
+  font-size: 14px;
+}
 
+p.contact {
+  display: block;
+  border-left: 5px solid #ccc;
+  padding-left: 10px;
+  margin-top: 15px;
+}
 
+/* Calendar */
+/* from http://davidwalsh.name/php-calendar */
 
+table.calendar {
+  border-left: 1px solid #999
+}
 
+tr.calendar-row {
 
+}
 
+td.calendar-day {
+  min-height: 80px;
+  font-size: 11px;
+  position: relative;
+  min-height: 50px;
+  height: 100px;
+}
 
+* html div.calendar-day {
+  height: 80px
+}
+
+td.calendar-day:hover {
+  background: #eceff5
+}
+
+td.calendar-day-np {
+  background: #eee;
+  min-height: 80px;
+}
+
+* html div.calendar-day-np {
+  height: 80px
+}
+
+td.calendar-day-head {
+  font-weight: bold;
+  text-align: center;
+  width: 120px;
+  padding: 5px;
+  border-bottom: 1px solid #999;
+  border-top: 1px solid #999;
+  border-right: 1px solid #999;
+}
+
+div.day-number {
+  padding: 5px;
+  color: black;
+  font-weight: bold;
+  float: right;
+  margin: -5px -5px 0 0;
+  width: 20px;
+  text-align: center;
+}
+
+/* shared */
+td.calendar-day,
+td.calendar-day-np {
+  width: 120px;
+  padding: 5px;
+  border-bottom: 1px solid #999;
+  border-right: 1px solid #999;
+}
+
+.calendar {
+  margin-top: 12px;
+}
+
+.calendar-day.sunday {
+  
+}
+
+.edit-calendar {
+  float: right;
+}
+
+.add-event {
+  font-size: 8pt;
+  position: absolute;
+  right: 3px;
+  bottom: 0px;
+}
 
 
 /* ==|== media queries ======================================================

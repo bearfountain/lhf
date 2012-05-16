@@ -42,14 +42,7 @@
         <div class='span3 sidebar'>
           <img src='img/LivingHopeLogo.png' alt='Living Hope Fellowship Logo' />
 
-          <nav>
-            <ul>
-              <li><a href='index.html'>Home</a></li>
-              <li><a href='calendar.html'>Calendar</a></li>
-              <li><a href='directions.html'>Directions</a></li>
-            </ul>
-
-          </nav>
+          <?php include 'navigation.php' ?>
 
           <div class='info-box'>
             Welcoming all to search with us with honesty and integrity, desiring to learn from each other.
@@ -58,7 +51,7 @@
         </div>
 
         <div class='span9 content'>
-          <iframe width="705" height="390" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;q=56+Burdick+Hill+Rd,+Ithaca,+Tompkins,+New+York+14850&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=59.50923,135.263672&amp;t=h&amp;ie=UTF8&amp;geocode=FSl5iAIdNKNw-w&amp;split=0&amp;hq=&amp;hnear=56+Burdick+Hill+Rd,+Ithaca,+Tompkins,+New+York+14850&amp;ll=42.498345,-76.504268&amp;spn=0.027498,0.066047&amp;z=14&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;q=56+Burdick+Hill+Rd,+Ithaca,+Tompkins,+New+York+14850&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=59.50923,135.263672&amp;t=h&amp;ie=UTF8&amp;geocode=FSl5iAIdNKNw-w&amp;split=0&amp;hq=&amp;hnear=56+Burdick+Hill+Rd,+Ithaca,+Tompkins,+New+York+14850&amp;ll=42.498345,-76.504268&amp;spn=0.027498,0.066047&amp;z=14" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+          <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=2&amp;bgcolor=%23f5f5f5&amp;src=ko2f8bkg0nds7b8pr1us0kkmqk%40group.calendar.google.com&amp;color=%232F6309&amp;ctz=America%2FNew_York" style="" width="800" height="600" frameborder="0" scrolling="no"></iframe>
         </div>
      </div>
   </div>

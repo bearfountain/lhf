@@ -42,14 +42,7 @@
         <div class='span3 sidebar'>
           <img src='img/LivingHopeLogo.png' alt='Living Hope Fellowship Logo' />
 
-          <nav>
-            <ul>
-              <li><a href='index.html'>Home</a></li>
-              <li><a href='calendar.html'>Calendar</a></li>
-              <li><a href='directions.html'>Directions</a></li>
-            </ul>
-
-          </nav>
+          <?php include 'navigation.php' ?>
 
           <div class='info-box'>
             Welcoming all to search with us with honesty and integrity, desiring to learn from each other.
@@ -58,7 +51,33 @@
         </div>
 
         <div class='span9 content'>
-          Coming soon!
+          <img alt='header' src='img/header1.jpg' />
+
+          <div class='info-box'>
+            <span class='highlight'>Living Hope Fellowship</span> is a welcoming and inclusive, informal, lay-led church, seeking to understand, experience and demonstrate God's love as revealed by <span class='highlight'>Jesus Christ.</span>
+          </div>
+
+          <ul class='information'>
+            <li>We are a small congregation of mixed ages. We gather informally in a circle to sing, talk, and pray about our joys, concerns, and dreams.</li>
+
+            <li>We discuss faith journeys and issues of interest to people in the group.</li>
+
+            <li>While many of us share a Mennonite/Peace Church tradition, we seek to celebrate our varied faith backgrounds.</li>
+
+            <li>We have a Sunday school for young children and a youth group.</li>
+
+            <li>We have been meeting since the early 1980s. Since then our group has grown and changed in many ways.</li>
+
+            <li>We welcome new ideas and new people.</li>
+          </ul>
+
+          <h3>For information, call:</h3>
+          
+          <p class='contact'><strong>John Finn</strong><br/>
+          607-351-2317</p>
+
+          <p class='contact'><strong>Juanita Weber-Shirk</strong><br/>
+          607-227-1950</p>
         </div>
      </div>
   </div>
@@ -87,4 +106,4 @@
     s.parentNode.insertBefore(g,s)}(document,'script'));
   </script>
 </body>
-<
+</html>

@@ -42,14 +42,7 @@
         <div class='span3 sidebar'>
           <img src='img/LivingHopeLogo.png' alt='Living Hope Fellowship Logo' />
 
-          <nav>
-            <ul>
-              <li><a href='index.html'>Home</a></li>
-              <li><a href='calendar.html'>Calendar</a></li>
-              <li><a href='directions.html'>Directions</a></li>
-            </ul>
-
-          </nav>
+          <?php include 'navigation.php' ?>
 
           <div class='info-box'>
             Welcoming all to search with us with honesty and integrity, desiring to learn from each other.
@@ -58,33 +51,16 @@
         </div>
 
         <div class='span9 content'>
-          <img alt='header' src='img/header1.jpg' />
+          <iframe width="705" height="390" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;q=56+Burdick+Hill+Rd,+Ithaca,+Tompkins,+New+York+14850&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=59.50923,135.263672&amp;t=h&amp;ie=UTF8&amp;geocode=FSl5iAIdNKNw-w&amp;split=0&amp;hq=&amp;hnear=56+Burdick+Hill+Rd,+Ithaca,+Tompkins,+New+York+14850&amp;ll=42.498345,-76.504268&amp;spn=0.027498,0.066047&amp;z=14&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;q=56+Burdick+Hill+Rd,+Ithaca,+Tompkins,+New+York+14850&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=59.50923,135.263672&amp;t=h&amp;ie=UTF8&amp;geocode=FSl5iAIdNKNw-w&amp;split=0&amp;hq=&amp;hnear=56+Burdick+Hill+Rd,+Ithaca,+Tompkins,+New+York+14850&amp;ll=42.498345,-76.504268&amp;spn=0.027498,0.066047&amp;z=14" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+          <h3>Winter</h3>
+          <p>
+            During the winter, we meet at<br/>
+            <a href='http://g.co/maps/xhxsx'>56 Burdick Hill Rd.<br/>
+            Ithaca, NY 14850</a>
+          </p>
 
-          <div class='info-box'>
-            Living Hope Fellowship is a welcoming and inclusive, informal, lay-led church, seeking to understand, experience and demonstrate God's love as revealed by Jesus Christ.
-          </div>
-
-          <ul class='information'>
-            <li>We are a small congregation of mixed ages. We gather informally in a circle to sing, talk, and pray about our joys, concerns, and dreams.</li>
-
-            <li>We discuss faith journeys and issues of interest to people in the group.</li>
-
-            <li>While many of us share a Mennonite/Peace Church tradition, we seek to celebrate our varied faith backgrounds.</li>
-
-            <li>We have a Sunday school for young children and a youth group.</li>
-
-            <li>We have been meeting since the early 1980s. Since then our group has grown and changed in many ways.</li>
-
-            <li>We welcome new ideas and new people.</li>
-          </ul>
-
-          <p>For information, call:</p>
-          
-          <p>John Finn<br/>
-          607-351-2317</p>
-
-          <p>Juanita Weber-Shirk<br/>
-          607-227-1950</p>
+          <h3>Summer</h3>
+          <p>During the summer months, we meet in our members homes. Check the <a href='calendar.php'>Calendar</a> to see where church will be held each week.</p>
         </div>
      </div>
   </div>
@@ -113,4 +89,4 @@
     s.parentNode.insertBefore(g,s)}(document,'script'));
   </script>
 </body>
-</html>
+<
